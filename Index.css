@@ -1,44 +1,40 @@
-.test{
-  border: solid red;
-  width: 100px;
-  height: 100px;
-}
 
-#flex{
-  border: solid red;
-}
 
-body{
+main{
   width: 1611px;
   height: 936px;
   background-color: #1E1F2F;
+  color: white;
   font-family: "Bebas Neue";
   display: flex;
-  flex-grow: ;
+  flex-grow: 1;
   overflow: hidden;
 }
 
 .container-left{
-  border: 5px solid;
-  border-color: aqua;
-  border: ;
-}
-
-.container-right{
-  border: 5px solid gold;
-  border-color: gold;
+  flex-grow: 1;
+  width: .5em;
 }
 
 .sw-square{
   width: 31.06px;
   height: 27.42px;
   background-color: white;
-
 }
 
 .sr-square{
   width: 60.47px;
   height: 68.55px;
   background-color: #E82C4F;
+}
 
+.container-right{
+  flex-grow: 1;
+  width: .5em;
+}
+
+.test{
+  border: solid red;
+  width: 100px;
+  height: 100px;
 }
