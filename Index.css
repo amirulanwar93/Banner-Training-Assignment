@@ -1,9 +1,3 @@
-body{
-  position: relative;
-  top: 200px;
-  left: 200px;
-}
-
 main{
   width: 1611px;
   height: 936px;
@@ -15,9 +9,7 @@ main{
 }
 
 .column-left{
-  position: relative;
-  top: 125px;
-  left: 130px;
+  gap: 80px;
   flex-grow: 1;
   width: .5em;
 }
@@ -29,6 +21,9 @@ main{
 
 header{
   display: flex;
+  position: fixed;
+  top: 125px;
+  left: 130px;
 }
 
 .header-1{
@@ -72,10 +67,95 @@ content{
   flex-shrink: 0;
 
   font-size: 156px;
-  font-family: Bebas Neue;
   line-height: 93.5%;
+
+  position: fixed;
+  top: 301px;
+  left: 130px;
 }
 
 footer{
+  display: inline-flex;
+  padding: 8px;
+  align-items: flex-start;
+  gap: 80px;
+
+  font-size: 64px;
+  line-height: 40px;
+  letter-spacing: 5.12px;
+
+  position: fixed;
+  top: 781px;
+  left: 130px;
+}
+
+img{
+  margin: 0px 20px 0px 0px;
+}
+
+.outer-white{
+  width: 444px;
+  height: 558px;
+  flex-shrink: 0;
+  border: 60px solid #FFF;
+
+  position: relative;
+  top: 166px;
+  left: 150px;
+}
+
+.red{
+  width: 200px;
+  height: 200px;
+  flex-shrink: 0;
+  border: 40px solid var(--color-primary-base, #E82C4F);
+
+  position: relative;
+  top: 79px;
+  left: 72px;
+}
+
+.inner-white{
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  border: 20px solid #FFF;
+
+  position: relative;
+  top: 40px;
+  left: 40px;
+}
+
+.foot{
   display: flex;
+  box-sizing: content-box;
+  width: 444px;
+  height: 169px;
+
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+}
+
+.square{
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  border: 20px solid #3256A1;
+
+  position: relative;
+  bottom: 72px;
+  left: 59px;
+}
+
+.circle{
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 80px;
+  border: 20px solid #FFF;
+
+  position: relative;
+  bottom: 72px;
+  left: 59px;
 }
