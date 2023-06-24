@@ -1,4 +1,8 @@
-
+body{
+  position: relative;
+  top: 200px;
+  left: 200px;
+}
 
 main{
   width: 1611px;
@@ -7,34 +11,71 @@ main{
   color: white;
   font-family: "Bebas Neue";
   display: flex;
-  flex-grow: 1;
   overflow: hidden;
 }
 
-.container-left{
+.column-left{
+  position: relative;
+  top: 125px;
+  left: 130px;
   flex-grow: 1;
   width: .5em;
 }
 
-.sw-square{
+.column-right{
+  flex-grow: 1;
+  width: .5em;
+}
+
+header{
+  display: flex;
+}
+
+.header-1{
   width: 31.06px;
   height: 27.42px;
   background-color: white;
 }
 
-.sr-square{
+.header-2{
+  position: relative;
+  top: 27.42px;
   width: 60.47px;
   height: 68.55px;
   background-color: #E82C4F;
 }
 
-.container-right{
-  flex-grow: 1;
-  width: .5em;
+.R{
+  position: relative;
+  top: 17.59px;
+  left: 16.08px;
 }
 
-.test{
-  border: solid red;
-  width: 100px;
-  height: 100px;
+.header-3{
+  display: flex;
+  width: 331px;
+  height: 96px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 96px;
+  line-height: 128%;
+  margin: 0px 40px;
+}
+
+content{
+  display: flex;
+  width: 800px;
+  height: 400px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
+  font-size: 156px;
+  font-family: Bebas Neue;
+  line-height: 93.5%;
+}
+
+footer{
+  display: flex;
 }
