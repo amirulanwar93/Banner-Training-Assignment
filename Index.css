@@ -129,10 +129,8 @@ img{
   border: 60px solid #48596D;
 
   position: absolute;
-  /* bottom: 584px;
-  left: -20px;
-
-  z-index: -1; */
+  top: -171px;
+  left: 1175.5px;
 }
 
 .box-2{
@@ -142,10 +140,8 @@ img{
   border: 60px solid #2D2F48;
 
   position: absolute;
-  /* top: -664px;
-  right: 498px;
-
-  z-index: -1; */
+  top: 393px;
+  left: 697.5px;
 }
 
 .square{
