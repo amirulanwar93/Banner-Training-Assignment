@@ -4,6 +4,8 @@ main{
   background-color: #1E1F2F;
   color: white;
   font-family: "Bebas Neue";
+
+  position: relative;
   display: flex;
   overflow: hidden;
 }
@@ -129,8 +131,8 @@ img{
   border: 60px solid #48596D;
 
   position: absolute;
-  top: -171px;
-  left: 1175.5px;
+  top: -179px;
+  left: 1167.5px;
 }
 
 .box-2{
@@ -140,8 +142,8 @@ img{
   border: 60px solid #2D2F48;
 
   position: absolute;
-  top: 393px;
-  left: 697.5px;
+  top: 385px;
+  left: 689.5px;
 }
 
 .square{
