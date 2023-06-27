@@ -21,7 +21,7 @@ main{
 
 header{
   display: flex;
-  position: fixed;
+  position: relative;
   top: 125px;
   left: 130px;
 }
@@ -67,8 +67,8 @@ content{
   font-size: 156px;
   line-height: 93.5%;
 
-  position: fixed;
-  top: 301px;
+  position: relative;
+  top: 176px;
   left: 130px;
 }
 
@@ -82,8 +82,8 @@ footer{
   line-height: 40px;
   letter-spacing: 5.12px;
 
-  position: fixed;
-  top: 781px;
+  position: relative;
+  top: 256px;
   left: 130px;
 }
 
@@ -100,7 +100,7 @@ img{
   position: relative;
   top: 166px;
   left: 150px;
-
+  z-index: 0;
 }
 
 .red{
@@ -128,9 +128,11 @@ img{
   height: 644px;
   border: 60px solid #48596D;
 
-  position: relative;
-  top: -20px;
+  position: absolute;
+  /* bottom: 584px;
   left: -20px;
+
+  z-index: -1; */
 }
 
 .box-2{
@@ -139,9 +141,11 @@ img{
   height: 644px;
   border: 60px solid #2D2F48;
 
-  position: relative;
-  top: 0px;
-  right: 0px;
+  position: absolute;
+  /* top: -664px;
+  right: 498px;
+
+  z-index: -1; */
 }
 
 .square{
